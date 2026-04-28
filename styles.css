@@ -1,0 +1,32 @@
+.search-proxy {
+    background-color: #222;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-proxy input[type='text'] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-proxy button {
+    padding: 10px 15px;
+    background-color: #fa8072;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .search-proxy input[type='text'] {
+        width: 80%;
+    }
+}
